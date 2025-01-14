@@ -7,7 +7,7 @@ html {
     border-radius: 40px;
     width: 20rem;
     margin: 2px;
-    overflow:auto;
+    overflow:hidden;
 }
 .gallery--item_title {
     display: block;
@@ -16,8 +16,11 @@ html {
     background-color: blue;
     text-align: center;
     color: aliceblue;
-    margin-top: -3px;
+
 }
 .gallery {
     list-style: none;
+}
+.gallery--item_image{
+    display: block;
 }
